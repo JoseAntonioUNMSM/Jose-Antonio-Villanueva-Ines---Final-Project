@@ -6,7 +6,7 @@ import javax.imageio.ImageIO;
 public class ProcesamientoSobel {
     public static void main(String[] args) {
         try {
-            int numHilos = 1; 
+            int numHilos = 6; 
             ExecutorService executor = Executors.newFixedThreadPool(numHilos);
 
             File archivo = new File("ImagenesComparativas/1.3GB.png");
